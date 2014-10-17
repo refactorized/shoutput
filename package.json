@@ -2,9 +2,10 @@
   "name": "shoutput",
   "version": "0.0.0",
   "description": "stupid simple logger",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "test": "mocha"
+    "start": "node --harmony server.js",
+    "test": "echo todo: testing"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/refactorized/shoutput/issues"
   },
-  "homepage": "https://github.com/refactorized/shoutput"
+  "homepage": "https://github.com/refactorized/shoutput",
+  "dependencies": {
+    "koa": "~0.12.2"
+  }
 }
